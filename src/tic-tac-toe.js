@@ -35,10 +35,10 @@ class TicTacToe {
                 if(this._matrix[j][i] == this._playerLabel) {
                     sameLabelInColumn++;
                 }
-                if(this._matrix[i][i] == this._playerLabel) {
+                if(this._matrix[j][j] == this._playerLabel) {
                     sameLabelInDiagOne++;
                 }
-                if(this._matrix[i][(this._matrix.length - 1) - i] == this._playerLabel) {
+                if(this._matrix[j][(this._matrix.length - 1) - j] == this._playerLabel) {
                     sameLabelInDiagTwo++;
                 }
                 
